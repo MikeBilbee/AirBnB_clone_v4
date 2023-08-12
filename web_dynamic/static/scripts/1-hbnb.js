@@ -10,7 +10,8 @@ $(document).ready(function() {
             delete amenities[amenityID];
         }
 
-        // updates the h4 tag inside the div "amenities" with the new list of amenities that are checked
+        // updates the h4 tag inside the div "amenities" 
+        //with the new list of amenities that are checked
         var amenitiesList = Object.values(amenities).join(', ');
         $('div.Amenities h4').text(amenitiesList);
     });
